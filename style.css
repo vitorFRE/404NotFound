@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conte {
+    background-color: aqua;
+}
+
+.logo h1 {
+    position: absolute;
+    left: 77px;
+    top: 40px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    color: #333333;
+    font-weight: bold;
+}
+
+#scare-img {
+    width: 539px;
+    height: 447px;
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+}
+
+.info h1 {
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.035em;
+}
+
+.info p {
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+#btn {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    background: #333333;
+}
+
+#btn p {
+    font-family: 'Space Mono', monospace;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+
+footer span {
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 800px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .logo h1 {
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+    }
+
+    #scare-img {
+    position: absolute;
+    left: 11.73%;
+    right: 11.78%;
+    top: 11.49%;
+    bottom: 63.44%;
+    width: 286px;
+    height: 238px;
+    }
+
+    .info h1 {
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    align-self: center;
+    }
+
+    .info p {
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 579px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    }
+
+    #btn {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    background: #333333;
+    border: none;
+    }
+
+    #btn p {
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+    footer span {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 46px;
+    top: 908px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    }
+}
+
